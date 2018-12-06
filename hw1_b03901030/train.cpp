@@ -15,7 +15,7 @@ void train(HMM&,vector<string>&);
 
 int main(int argc ,char* argv[])
 {
-	int iter = atoi(argv[1]);
+	int iter = argv[1];
 	string init = argv[2];
 	string seq = argv[3];
 	string trained  = argv[4];
