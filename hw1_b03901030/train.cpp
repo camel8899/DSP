@@ -5,6 +5,7 @@
 #include<vector>
 #include<fstream>
 #include "hmm.h"
+//test change
 using namespace std;
 void alphaM(HMM&, double**, int*, int);
 void betaM(HMM&, double**, int*, int);
